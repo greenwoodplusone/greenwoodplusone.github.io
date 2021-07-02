@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="author">
+        <meta name="description" content="Обучение web-программированию за 2 недели">
+        <meta name="keywords" content="обучение, web-программирование, 2 недели, html, css, js, javascript, 
+            создание сайта">
+
+        <title>Обучение web-программированию за 2 недели</title>
+
+        <!--Подключение стилей для слайдера-->
+        <link rel="stylesheet" href="css/chief-slider.css">
+
+        <!--Подключение стилей для выпадающего списка плана обучения-->
+        <link rel="stylesheet" href="css/accordion.css">
+
+        <!--Подключение стилей основной старницы-->
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--Подключение стилей меню-->
+        <link rel="stylesheet" href="css/menu.css">
+
+    </head>
+
+    <body>
+
+        <div id="header">
+            <div class="menu">
+                <button class="menu-button">
+                    <a href="#CourseProgram">Преимущества</a>
+                </button>
+                <button class="menu-button">
+                    <a href="#CourseProgram">Программа курса</a>
+                </button>
+                <button class="menu-button">
+                    <a href="#CourseProgram">Начать обучение</a>
+                </button>
+                <button class="menu-button">
+                    <a href="#CourseProgram">Контакты</a>
+                </button>
+            </div>
+
+            <hr>
+        </div>
+        
+        <div id="main">
+
+            <div class="container">
+
+                <div class="slider">
+                  <div class="slider__container">
+                    <div class="slider__wrapper">
+                      <div class="slider__items">
+                        <div class="slider__item">
+                          <!-- Контент 1 слайда -->
+                        </div>
+                        <div class="slider__item">
+                          <!-- Контент 2 слайда -->
+                        </div>
+                        <div class="slider__item">
+                          <!-- Контент 3 слайда -->
+                        </div>
+                        <div class="slider__item">
+                          <!-- Контент 4 слайда -->
+                        </div>
+                        <div class="slider__item">
+                          <!-- Контент 5 слайда -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#" class="slider__control" data-slide="prev"></a>
+                  <a href="#" class="slider__control" data-slide="next"></a>
+                </div>
+            
+              </div>
+
+            <div class="course-program">
+                <div class="course-program-text">
+                    <a name="CourseProgram">Программа курса:</a>
+                </div>
+                
+                <div class="accordion">
+                    <input id="toggle1" type="radio" class="accordion-toggle" name="toggle" />
+                    <label for="toggle1">1.   Знакомство с программированием</label>
+                    <section>
+                        <div class="accordion-section">
+                            <div class="accordion-image">
+                                <img src="images/history.jpg" width="350" alt="history">
+                            </div>
+                            <div class="accordion-text">
+                                <p>
+                                    Тут текст который описывает как мы будем знакомиться с программированием. История, языки и тп.
+                                    Тут текст который описывает как мы будем знакомиться с программированием. История, языки и тп.
+                                    Тут текст который описывает как мы будем знакомиться с программированием. История, языки и тп.
+                                    Тут текст который описывает как мы будем знакомиться с программированием. История, языки и тп.
+                                    Тут текст который описывает как мы будем знакомиться с программированием. История, языки и тп.
+                                    Тут текст который описывает как мы будем знакомиться с программированием. История, языки и тп.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="accordion">
+                    <input id="toggle2" type="radio" class="accordion-toggle" name="toggle" />
+                    <label for="toggle2">2.   Знакомство с HTML</label>
+                    <section>
+                        <div class="accordion-section">
+                            <div class="accordion-image">
+                                <img src="images/html.jpg" width="350" alt="html">
+                            </div>
+                            <div class="accordion-text">
+                                <p>
+                                    <ol start="1" type="1">
+                                        <li>Знакомство с HTML</li>
+                                        <li>??? каркаса</li>
+                                        <li>Основные блоки</li>
+                                    </ol>
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="accordion">
+                    <input id="toggle3" type="radio" class="accordion-toggle" name="toggle" />
+                    <label for="toggle3">3.   Знакомство с CSS</label>
+                    <section>
+                        <div class="accordion-section">
+                            <div class="accordion-image">
+                                <img src="images/css.jpg" width="350" alt="css">
+                            </div>
+                            <div class="accordion-text">
+                                <p>
+                                    <ol start="1" type="1">
+                                        <li>Знакомство с css</li>
+                                        <li>Применение стилей</li>
+                                        <li>Flex</li>
+                                        <li>Grid</li>
+                                    </ol>
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="accordion">
+                    <input id="toggle4" type="radio" class="accordion-toggle" name="toggle" />
+                    <label for="toggle4">4.   Знакомство с javascript</label>
+                    <section>
+                        <div class="accordion-section">
+                            <div class="accordion-image">
+                                <img src="images/js.jpg" width="350" alt="js">
+                            </div>
+                            <div class="accordion-text">
+                                <p>
+                                    <ol start="1" type="1">
+                                        <li>Знакомство с javascript</li>
+                                        <li>Практика на javascript</li>
+                                        <li>Разработка слайдера</li>
+                                        <li>??? Разработка слайдера</li>
+                                        <li>Анимация</li>
+                                        <li>??? Знакомство с b-s ???</li>
+                                    </ol>
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="accordion">
+                    <input id="toggle5" type="radio" class="accordion-toggle" name="toggle" />
+                    <label for="toggle5">5.   Практика</label>
+                    <section>
+                        <div class="accordion-section">
+                            <div class="accordion-image">
+                                <img src="images/practice.png" width="350" alt="practice">
+                            </div>
+                            <div class="accordion-text">
+                                <p>
+                                    <ol start="1" type="1">
+                                        <li>Работа с полями ввода</li>
+                                        <li>Валидация</li>
+                                        <li>Минификация</li>
+                                        <li>Работа с картинками</li>
+                                        <li>??? Развертывание сте...</li>
+                                        <li>Практика</li>
+                                    </ol>
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="accordion">
+                    <input id="toggle6" type="radio" class="accordion-toggle" name="toggle" />
+                    <label for="toggle6">6.   ???</label>
+                    <section>
+                        <div class="accordion-section">
+                            <div class="accordion-image">
+                                <img src="images/etc.jpg" width="350" alt="etc">
+                            </div>
+                            <div class="accordion-text">
+                                <p>
+                                    <ol start="1" type="1">
+                                        <li>...</li>
+                                        <li>...</li>
+                                        <li>...</li>
+                                        <li>...</li>
+                                    </ol>
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="accordion">
+                    <input id="toggle7" type="radio" class="accordion-toggle" name="toggle" />
+                    <label for="toggle7">7.   Дипломный проект</label>
+                    <section>
+                        <div class="accordion-section">
+                            <div class="accordion-image">
+                                <img src="images/exam.png" width="350" alt="exam">
+                            </div>
+                            <div class="accordion-text">
+                                <p>
+                                    <ol start="1" type="1">
+                                        <li>Дипломный проект 1</li>
+                                        <li>Дипломный проект 2</li>
+                                        <li>Результаты</li>
+                                    </ol>
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="advantages">
+                <p>Преимущества</p>
+            </div>
+            
+             <br>
+
+            <div class="request">
+                <p>Заявка</p>
+            </div>
+
+        </div> 
+
+        <div id="footer">
+            <a class="main_link" href="mailto:mail@mail.ru">Написать на почту</a>
+        </div>
+        
+
+        <!--Подключение скрипта для слайдера-->
+        <script defer src="js/chief-slider.js"></script>
+
+        <!--Инициализация слайдера-->
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              const slider = new ChiefSlider('.slider', {
+                loop: false
+              });
+            });
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,53 @@
+.menu {
+    min-height: 55px;
+    height: auto;
+    margin-top: 17px;
+    margin-bottom: 17px;
+
+    text-align: center;
+    position: relative;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu-button {
+    height: 42px;
+    border: none;
+    background: none;
+    font-size: 21px;
+    border-radius: 5px;
+    position: relative;
+	box-sizing: border-box;
+	transition: all 100ms ease; 
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.menu-button:hover {
+    height: 42px;
+    border: 1.5px solid red;
+    background: none;
+    font-size: 21px;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+    animation: bounce 1s;
+}
+
+.menu-button>a:link { 
+    text-decoration: none;
+
+} 
+.menu-button>a:visited { 
+    text-decoration: none; 
+} 
+
+.menu-button>a:active { 
+    text-decoration: none; 
+}
+
+.menu-button>a:hover {
+    text-decoration: node;
+    color: red; 
+}
